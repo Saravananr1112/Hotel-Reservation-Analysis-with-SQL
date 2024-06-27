@@ -99,3 +99,9 @@ WHERE booking_status NOT IN ('Canceled')
 GROUP BY market_segment_type
 ORDER BY MAX(avg_price_per_room) DESC
 LIMIT 1;
+
+# Identifying the canceled market segment type
+SELECT market_segment_type, COUNT(Booking_ID) 
+FROM hotel_reservation
+WHERE booking_status = 'Canceled'
+GROUP BY market_segment_type;
