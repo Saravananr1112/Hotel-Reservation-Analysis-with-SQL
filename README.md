@@ -34,6 +34,7 @@ I excluded entries with the 'Canceled' status in the booking_status column when 
 * Section 2: Guest Preferences and Booking Trends
 * Section 3: Pricing Strategies and Market Segmentation
 * Section 4: Additional Insights
+* Section 5: Identifying Canceled Market Segments
 
 ### Section 1. Overview of Non-Canceled Reservations
 #### 1.1 Total Number of Reservations
@@ -102,6 +103,16 @@ I excluded entries with the 'Canceled' status in the booking_status column when 
 * **Insight:** "Online" is the most common market segment type for non-canceled reservations.
 * **Key Point:** This information highlights the importance of online booking channels and the potential for digital marketing strategies.
 ![8](https://github.com/Saravananr1112/Hotel-Reservation-Analysis-with-SQL/assets/159127219/563da676-4342-4116-88d7-5ffeccc5b098)
+
+### Section 5. Identifying Canceled Market Segments
+**Insight:** The analysis of canceled market segments reveals the market segment type that has the highest number of canceled bookings. This insight is crucial for understanding which segments are more prone to cancellations, which could be due to various factors such as customer satisfaction issues, booking flexibility, or external market conditions.
+
+**Key Points:**
+* The SQL query identifies the market segment type with the highest count of canceled bookings, providing a clear indication of where the hotel may need to focus its efforts to reduce cancellations.
+* This information can guide targeted marketing strategies to improve customer retention and satisfaction within the identified market segment.
+* By addressing the underlying reasons for cancellations in the affected market segment, the hotel can potentially increase revenue and improve overall booking stability.
+
+![Additional](https://github.com/Saravananr1112/Hotel-Reservation-Analysis-with-SQL/assets/159127219/423ec24b-044a-45c3-ae01-9daaafedb101)
 
 
 ###                                                                          **END**
