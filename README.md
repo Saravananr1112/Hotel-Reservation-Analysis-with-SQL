@@ -26,6 +26,9 @@ For this task, I have to download the hotel reservation.csv file, which is the c
 I reformatted the date format for query optimization.
 
 ![Changing the date format](https://github.com/Saravananr1112/Hotel-Reservation-Analysis-with-SQL/assets/159127219/7e0c07ee-c6f8-4d81-af7b-da244c1ee464)
+
+I excluded entries with the 'Canceled' status in the booking_status column when analyzing hotel reservation data to ensure accurate metrics.
+
 ### Content
 * Section 1: Overview of Non-Canceled Reservations
 * Section 2: Guest Preferences and Booking Trends
